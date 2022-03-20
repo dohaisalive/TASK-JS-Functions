@@ -11,7 +11,7 @@ function greet(name) {
   console.log(`Hello ${name}`);
 }
 
-greet("doha");
+//greet("doha");
 
 /**
  * isOdd(n):
@@ -33,8 +33,8 @@ function isOdd(n) {
   }
 }
 
-isOdd(7);
-isOdd(14);
+//isOdd(7);
+//isOdd(14);
 
 /**
  * oddsSmallerThan(n):
@@ -57,8 +57,8 @@ function oddsSmallerThan(n) {
   return counter;
 }
 
-oddsSmallerThan(7);
-oddsSmallerThan(15);
+//oddsSmallerThan(7);
+//oddsSmallerThan(15);
 
 
 /**
@@ -83,7 +83,7 @@ function squareOrDouble(n) {
   return newNum;
 }
 
-squareOrDouble(16);
-squareOrDouble(9);
+//squareOrDouble(16);
+//squareOrDouble(9);
 
 module.exports = { greet, isOdd, oddsSmallerThan, squareOrDouble };
